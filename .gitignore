@@ -1,0 +1,69 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+*.whl
+*.log
+
+# Jupyter Notebook checkpoints (but keep .ipynb files)
+.ipynb_checkpoints/
+
+# macOS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Thumbnails
+._*
+
+# macOS folder settings
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Environment files
+.env
+bandits_venv/
+
+# Virtualenv
+.Python
+python_env/
+pip-wheel-metadata/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# pytest
+.cache/
+.tox/
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Coverage reports
+*.cover
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
